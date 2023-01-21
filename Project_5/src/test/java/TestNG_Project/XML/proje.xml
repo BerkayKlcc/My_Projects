@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suit" parallel="tests" thread-count="1"> <!--paralel çalıştırma yap diyruz ve 2 tane testi çalıştır dedik-->
+
+    <!--test name="test1">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="TestNG_Project.Proje.TestNG_Project.Proje"></class>
+        </classes>
+    </test-->
+
+    <test name="test2">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="TestNG_Project.Proje.Proje"></class>
+        </classes>
+    </test>
+</suite>

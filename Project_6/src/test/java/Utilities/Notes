@@ -1,0 +1,13 @@
+
+Framework de kullandigimiz OOP modelleri;
+- Inheritance
+- Encapsulation
+
+Intw. Cevaplar;
+Ben Page Object Model kullaniyorum.Burada klasorler olusturdum kendime.
+Page klosurne pageleri koydum ve ortak ozelliklerini "Parent" klasorunde topladim.
+Sik kullandigim wait,send,click gibi fonksiyonlari burada tanimladim ve diger sayfalarda kolayca
+cagirarak kullaniyorum. Bu sayade obsiyonel ve az kod yazarak daha verimli is uretiyorum.
+
+Utilities klasorunde GenWebDr olusturdum ve buradan tum driverlarimi tanimlayarak kontrol edebiliyorum.
+Buna singelten modeli denir.
